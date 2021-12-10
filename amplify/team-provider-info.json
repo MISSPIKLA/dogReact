@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dogornot-dev-133621-authRole",
+      "UnauthRoleArn": "arn:aws:iam::861472031726:role/amplify-dogornot-dev-133621-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::861472031726:role/amplify-dogornot-dev-133621-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dogornot-dev-133621-deployment",
+      "UnauthRoleName": "amplify-dogornot-dev-133621-unauthRole",
+      "StackName": "amplify-dogornot-dev-133621",
+      "StackId": "arn:aws:cloudformation:us-east-1:861472031726:stack/amplify-dogornot-dev-133621/a19a4190-58ec-11ec-ace2-128d953e54d3",
+      "AmplifyAppId": "d3cpqo9mb26cbf"
+    },
+    "categories": {
+      "auth": {
+        "dogornotc114a377": {},
+        "true": {}
+      },
+      "storage": {
+        "dogornot99a6ef0a": {
+          "bucketName": "perropic",
+          "region": "us-east-1"
+        },
+        "milaDynamo": {
+          "tableName": "milaDynamo",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:861472031726:table/milaDynamo",
+          "partitionKeyName": "test1",
+          "partitionKeyType": "S"
+        }
+      }
+    }
+  }
+}
